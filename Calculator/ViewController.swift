@@ -208,8 +208,8 @@ extension ViewController
                 btn.setTitleColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), for: .normal)
                 btn.setAttributedTitle(title, for: .normal)
             }
+            
         }
-        
     }
     func toIntConvert(value :String) -> Int
     {

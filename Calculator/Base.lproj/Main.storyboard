@@ -857,7 +857,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOe-Kh-4gO">
                                                                 <rect key="frame" x="37.5" y="0.0" width="37.5" height="88"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                                <state key="normal" title="4">
+                                                                <state key="normal" title="²√x">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <userDefinedRuntimeAttributes>
@@ -872,7 +872,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcD-3g-OYL">
                                                                 <rect key="frame" x="75" y="0.0" width="37.5" height="88"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                                <state key="normal" title="4">
+                                                                <state key="normal" title="∛x">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <userDefinedRuntimeAttributes>
@@ -887,7 +887,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjZ-jp-nNB">
                                                                 <rect key="frame" x="112.5" y="0.0" width="37.5" height="88"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                                <state key="normal" title="4">
+                                                                <state key="normal" title="ˣ√y">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <userDefinedRuntimeAttributes>
@@ -902,7 +902,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smS-A6-Uq9">
                                                                 <rect key="frame" x="150" y="0.0" width="37.5" height="88"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                                <state key="normal" title="4">
+                                                                <state key="normal" title="ln">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <userDefinedRuntimeAttributes>
@@ -914,10 +914,10 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSL-O8-bD9">
+                                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSL-O8-bD9">
                                                                 <rect key="frame" x="187.5" y="0.0" width="37.5" height="88"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                                <state key="normal" title="4">
+                                                                <state key="normal" title="log₁₀">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <userDefinedRuntimeAttributes>
@@ -1408,6 +1408,7 @@
                         <outletCollection property="btnAllScientific" destination="hOS-Qt-KuJ" collectionClass="NSMutableArray" id="2f6-3T-M0f"/>
                         <outletCollection property="btnAllScientific" destination="53b-y2-VKc" collectionClass="NSMutableArray" id="sT6-cK-qpn"/>
                         <outletCollection property="btnAllScientific" destination="eT0-61-37r" collectionClass="NSMutableArray" id="Er7-7l-nlQ"/>
+                        <outletCollection property="btnAllScientific" destination="kSL-O8-bD9" collectionClass="NSMutableArray" id="SFC-90-dGQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PFG-63-xfI" sceneMemberID="firstResponder"/>
